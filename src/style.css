@@ -1,4 +1,30 @@
+.addCreditCard {
+    border: 1mm inset gray;
+    background-color: gainsboro;
+    color: goldenrod;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    width: 39.6%;
+    object-fit: contain;
+    text-align: center;
+}
+
+html {
+    background-color: burlywood;
+}
+
 .center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30%;
+    width: 40%;
+    object-fit: contain;
+}
+
+.table {
     display:block;
     margin-left: auto;
     margin-right: auto;
@@ -7,15 +33,6 @@
     object-fit: contain;
 }
 
-.addCreditCard {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 50%;
-    width: 50%;
-    object-fit: contain;
-    text-align: center;
-}
 
 .name {
     display:block;
@@ -59,10 +76,12 @@
 
 .button {
     display:block;
+    border: 1mm outset cadetblue;
+    background-color: cadetblue;
     margin-left: auto;
     margin-right: auto;
     height: 50%;
-    width: 50%;
+    width: 20%;
     object-fit: contain;
     text-align: center;
 }

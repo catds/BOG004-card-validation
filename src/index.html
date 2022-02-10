@@ -3,36 +3,46 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Suaty - Validador TC</title>
+    <title>Validador TC - Algoritmo de Luhn</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <div class="addCreditCard">
-        <p>Agregar tarjeta</p>
+        <h1>Agregar tarjeta</h1>
       </div>
       <img src="images/TC.jpg" class="center">
     </header>
     <main>
-        <div class="name">
-          <p>Nombre</p>
-          <input type="required">
-        </div>
-        <div class="number">
-          <p>Número</p>
-          <input type="required">
-        </div>
-        <div class="date">
-          <p>Fecha</p>
-          <input type="required">
-        </div>
-        <div class="ccv">
-          <p>CCV</p>
-          <input type="required">
-        </div>
-        <div>
-          <button type="submit" id="buttonAdd" class="button">Agregar</>
-        </div>
+      <table class="table">
+        <tr>
+          <div class="name">
+            <th><p>Nombre: </p></th>
+            <td><p>Pepita Pérez</p></td>
+          </div>
+        </tr>
+        <tr>
+          <div id="wheel" class="number">
+            <th><p>Número: </p></th>
+            <td><input type="number" id="numberTC"></td>
+          </div>
+        </tr>
+        <tr>
+          <div class="date">
+            <th><p>Vencimiento:</p></th>
+            <td><p>11/26</p></td>
+          </div>
+        </tr>
+        <tr>
+          <div class="ccv">
+            <th><p>CCV: </p></th>
+            <td><p>123</p></td>
+          </div>
+        </tr>
+      </table>
+          <div>
+            <button type="submit" id="buttonAdd" class="button">Agregar</button>
+          </div>
     </main>
     <footer>
     </footer>
