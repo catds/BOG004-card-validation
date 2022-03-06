@@ -46,3 +46,8 @@ const validator =
 };
 
 export default validator;
+
+//estudiar sobre el ambito
+//eslint
+//revisar archivo de pruebas test
+//revisar css
